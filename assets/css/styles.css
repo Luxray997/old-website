@@ -91,12 +91,9 @@ html::-webkit-scrollbar {
 
 .welcome-background {
   position: absolute;
-  /* width: 110%; */
   min-width: 120vw;
-  /* height: 110%; */
   min-height: 110vh;
-  /* top: 5%;
-  left: 5%; */
+  z-index: 0;
 }
 
 .icon {
@@ -161,6 +158,7 @@ html::-webkit-scrollbar {
 
 /* main page links */
 .links-container {
+  position: relative;
   display: flex;
   background-color: green;
   margin: 0;
