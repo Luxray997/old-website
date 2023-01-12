@@ -1,0 +1,127 @@
+.title {
+    color: #00c3ff;
+    background-color: white;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 14px;
+}
+
+.navbar {
+    background-color: rgb(32, 32, 32);
+    overflow: hidden;
+    box-shadow: 0px 3px 10px -5px #333;
+}
+
+.navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-style: solid;
+    border-color: rgb(32, 32, 32);
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    background-color: rgb(40, 40, 40);
+    border-color: rgb(117, 117, 117);
+    border-style: solid;
+}
+
+.navbar a.active {
+    background-color: #00c3ff;
+    border-color: #00c3ff;
+    color: white;
+    cursor: default;
+}
+
+
+.content-section {
+    border-style: solid;
+    border-width: 2px;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-bottom: 1em;
+}
+
+.button {
+    display: inline-block;
+    padding: 12px;
+    margin-bottom: 1em;
+    background-color: #00c3ff;
+    border-radius: 6px;
+    border-width: 0;
+    font-weight: bolder;
+    font-size: small;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.button:hover {
+    background-color: #00a5d7;
+}
+
+.content ul {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.content li {
+    margin-top: 30px;
+    width: 75vw;
+    height: 15vw;
+    list-style: none;
+    overflow: hidden;
+}
+
+.content li span {
+    position: absolute;
+    display: inline-block;
+    padding-left: 2em;
+    top: 50%;
+    transform: translate(0, -50%);
+    text-shadow: 0 0 10px white;
+    transition: text-shadow 350ms;
+}
+
+.content li:hover {
+    cursor: pointer;
+}
+
+.content li:hover span {
+    text-shadow: 0 0 10px black, 0 0 20px black;
+    transition: text-shadow 350ms;
+}
+
+.content li:hover img {
+    left: 0;
+    /* mask-image: url(../images/ribbon-mask3.svg);
+    -webkit-mask-image: url(../images/ribbon-mask3.svg);
+    -webkit-mask-repeat: no-repeat; */
+    filter: brightness(85%);
+    transition: filter 350ms, left 250ms;
+    
+}
+
+.project-item-preview-image {
+    position: absolute;
+    width: 75vw;
+    height: 15vw;
+    left: -2em;
+    object-fit: cover;
+    object-position: 0% 85%;
+    mask-image: url(../images/ribbon-mask.svg);
+    -webkit-mask-image: url(../images/ribbon-mask.svg);
+    -webkit-mask-repeat: no-repeat;
+    filter: brightness(50%);
+    transition: filter 350ms, left 250ms;
+}
+
+
+
+

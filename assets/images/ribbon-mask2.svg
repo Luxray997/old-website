@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 200 500 100" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <rect y="200" width="900" height="100" style="" x="-500"/>
+  <path d="M 400 200 L 500 300 L 400 300 L 400 200 Z" style="" bx:shape="triangle 400 200 100 100 0 0 1@8ae50f01"/>
+  <path d="M -400 -300 L -400 -200 L -500 -200 L -400 -300 Z" style="" transform="matrix(-1, 0, 0, -1, 0, 0)" bx:shape="triangle -500 -300 100 100 1 0 1@dd7f6e4c"/>
+</svg>
