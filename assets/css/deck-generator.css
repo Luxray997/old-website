@@ -1,0 +1,64 @@
+.tool-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button {
+    display: inline-block;
+    padding: 12px;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    background-color: #00c3ff;
+    border-radius: 6px;
+    border-width: 0;
+    font-weight: bold;
+    font-size:small;
+    color: white;
+}
+
+.button:hover {
+    background-color: #00a5d7;
+    cursor: pointer;
+}
+
+.card-container {
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr;
+    width: 800px;
+    height: 600px;
+    max-width: 100vw;
+    max-height: 75vw;
+    align-items: stretch;
+
+}
+
+.card-name {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+
+.card-container li {
+    position: relative;
+    list-style: none;
+    width: 100%;
+    height: 100%;
+}
+
+.card-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.champion {
+    top: 47.3544974%;
+}
+

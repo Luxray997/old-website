@@ -46,24 +46,6 @@
     margin-bottom: 1em;
 }
 
-.button {
-    display: inline-block;
-    padding: 12px;
-    margin-bottom: 1em;
-    background-color: #00c3ff;
-    border-radius: 6px;
-    border-width: 0;
-    font-weight: bolder;
-    font-size: small;
-    text-decoration: none;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-
-.button:hover {
-    background-color: #00a5d7;
-}
 
 .content ul {
     position: relative;

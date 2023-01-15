@@ -35,19 +35,20 @@
   }
 }
 
-.welcome-header h1,
 .welcome-header div {
   position: absolute;
   font-size: 70px;
   padding: .6em;
   -webkit-text-fill-color: transparent;
+  font-weight: bold;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  white-space: nowrap;
 }
 
 
-.welcome-header h1 {
+#welcome-text {
   background: linear-gradient(90deg,
       rgb(20, 146, 204),
       rgb(69, 67, 175),
@@ -61,7 +62,7 @@
   margin: 0;
 }
 
-.welcome-header div {
+#welcome-outline {
   background-color: rgba(51, 51, 51, .6);
 }
 
