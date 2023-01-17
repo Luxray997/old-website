@@ -8,21 +8,24 @@
     </head>
     <body>
         <div class="tool-container">
-            <label for ="champion-setting">Champion: </label>
-            <select name="champion-setting" class="champion-dropdown">
-                <option value="0">None</option>
-                <option value="1" selected>Random</option>
-                <option value="2">Guaranteed</option>
-            </select>
-            <br>
-            <button class="button" onclick="linkRandomDeck()">GENERATE DECK</button>
-            <br>
+            <span class="setting-title">Champion</span>
+            <form class="champion-setting2">
+                <div>
+                    <input type="radio" class="champion-option" name="champion" value="0">
+                    <span class="no-select">None</span>
+                </div>
+                <div>
+                    <input type="radio" class="champion-option" name="champion" value="1" checked>
+                    <span class="no-select">Random</span>
+                </div>
+                <div>
+                    <input type="radio" class="champion-option" name="champion" value="2">
+                    <span class="no-select">Guaranteed</span>
+                </div>
+            </form>
+            <button class="generate-button" onclick="linkRandomDeck()">GENERATE DECK</button>
+            <ul class="card-container"></ul>
             <a id="link"></a>
-            <br>
-            <h>Deck:</h>
-            <ul class="card-container">
-                
-            </ul>
         </div>
     </body>
 </html>

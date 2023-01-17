@@ -925,7 +925,7 @@ Features:
     - Rarity specificity
     - Good deck maker (win condition / support / tank killer / big spell / small spell / etc.)
 */
-function createRandomDeckLink(excludeArr, includeArr, champion) {
+function createRandomDeck(excludeArr, includeArr, champion) {
    let deck = [];
    let hasChampion = false;
 
@@ -972,15 +972,21 @@ function copyLinkToClipboard() {
 }
 
 function linkRandomDeck() {
-   let deck = createRandomDeckLink([], [], document.getElementsByClassName("champion-dropdown")[0].value);
-   let link = getLinkFromDeck(deck);
-   let linkOutput = document.getElementById("link");
-   linkOutput.innerHTML = "Open Link";
-   linkOutput.setAttribute("href", link);
    let cardContainer = document.getElementsByClassName("card-container")[0];
    while(cardContainer.firstChild){
       cardContainer.removeChild(cardContainer.firstChild);
-    }
+   }
+
+   const EXCLUDE_LIST = [];
+   const INCLUDE_LIST = [];
+   const CHAMPION_SETTING = getValueFromRadioButtons( document.getElementsByClassName("champion-option"));
+   let deck = createRandomDeck(EXCLUDE_LIST, INCLUDE_LIST, CHAMPION_SETTING);
+   let link = getLinkFromDeck(deck);
+   let linkOutput = document.getElementById("link");
+   linkOutput.innerHTML = "COPY LINK";
+   linkOutput.setAttribute("href", link);
+   linkOutput.style.display = "inline-block";
+   
 
    deck.forEach(card => {
       const li = document.createElement("li");
@@ -994,6 +1000,16 @@ function linkRandomDeck() {
       span.appendChild(text);
       li.appendChild(span);
       li.appendChild(image);
+      li.style.opacity = 0;
       cardContainer.appendChild(li);
    });
+}
+
+function getValueFromRadioButtons(inputElements) {
+   for (let i = 0; i < inputElements.length; i++) {
+      if (inputElements[i].checked) {
+         return inputElements[i].value;
+      }
+   }
+   return null;
 }
