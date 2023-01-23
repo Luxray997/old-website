@@ -197,6 +197,12 @@ div.setting-title {
     width: 100%;
 }
 
+#none-filter-ul li img:hover, 
+#include-filter-ul li img:hover, 
+#exclude-filter-ul li img:hover {
+    cursor: pointer;
+}
+
 .generate-button {
     display: inline-block;
     padding: 12px;
