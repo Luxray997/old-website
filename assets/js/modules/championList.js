@@ -1,4 +1,4 @@
-[
+const championList = [
     {
        "name":"Archer Queen",
        "elixir":5,
@@ -40,3 +40,5 @@
        "icon":"./assets/images/cards/Monk.png"
     }
  ]
+
+ export default championList;

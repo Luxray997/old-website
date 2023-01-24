@@ -1,5 +1,5 @@
-import cardList from './modules/cardList.json';
-import championList from './modules/championList.json';
+import cardList from './modules/cardList.js';
+import championList from './modules/championList.js';
 import  { 
    getValueFromRadioButtons, 
    randomInt 

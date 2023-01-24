@@ -1,4 +1,4 @@
-[
+const cardList = [
     {
        "name":"Knight",
        "elixir":3,
@@ -872,3 +872,5 @@
        "icon":"./assets/images/cards/Monk.png"
     }
  ]
+
+ export default cardList;
