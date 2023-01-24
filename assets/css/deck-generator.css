@@ -135,6 +135,25 @@ div.setting-title {
     display: none;
     position: relative;
     width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.filter-hide-container {
+    position: relative;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.filter-hide-container span {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .filtered-cards-container {
@@ -202,6 +221,21 @@ div.setting-title {
 #exclude-filter-ul li img:hover {
     cursor: pointer;
 }
+
+#none-filter-ul.grayed-out-champion-container li img.champion:hover,
+#none-filter-ul.grayed-out-container li img:hover {
+    cursor: default;
+}
+
+.grayed-out-container img {
+    filter: grayscale(50%) brightness(50%);
+}
+
+.grayed-out-champion-container img.champion {
+    filter: grayscale(50%) brightness(50%);
+}
+
+
 
 .generate-button {
     display: inline-block;
