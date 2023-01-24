@@ -1,9 +1,9 @@
-import cardList from './modules/cardList.json' assert { type: 'json' };
-import championList from './modules/championList.json' assert { type: 'json' };
+import cardList from './modules/cardList.json';
+import championList from './modules/championList.json';
 import  { 
    getValueFromRadioButtons, 
    randomInt 
-}  from './util.js';
+} from './util.js';
 
 console.log("Deck Generator Script Loaded");
 
