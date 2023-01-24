@@ -5,6 +5,8 @@ import  {
    randomInt 
 }  from './util.js';
 
+console.log("Deck Generator Script Loaded");
+
 window.rarityMap = new Map();
 rarityMap.set("Common", 0);
 rarityMap.set("Rare", 1);
