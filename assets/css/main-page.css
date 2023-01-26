@@ -230,7 +230,7 @@
 
 
 .links-icon {
-  width: 100px;
+  height: 85px;
   position: absolute;
   transition: padding-right 500ms ease-in-out;
 }

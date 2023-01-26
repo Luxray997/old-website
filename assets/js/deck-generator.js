@@ -31,12 +31,17 @@ function filterOptionClicked(hide) {
    let includeUl = document.getElementById("include-filter-ul");
    let excludeUl = document.getElementById("exclude-filter-ul");
    let noneUl = document.getElementById("none-filter-ul");
+   let excludeButtonContainer = document.getElementById("filter-hide-container");
    includeUl.classList.remove("selected-filter");
    excludeUl.classList.remove("selected-filter");
    noneUl.classList.remove("grayed-out-container");
    noneUl.classList.remove("grayed-out-champion-container");
    if (hide == "hide") {
-      cardContainer.style.display = "none";
+      cardContainer.classList.add("minimized-filter-container");
+      noneUl.style.display = "none";
+      excludeUl.style.gridTemplateColumns = "repeat(auto-fit, minmax(75px, 1fr))";
+      includeUl.style.gridTemplateColumns = "repeat(auto-fit, minmax(75px, 1fr))";
+      excludeButtonContainer.style.display = "none";
       document.getElementById("filter-form").reset();
    } else if ( mode=="include" ) {
       includeUl.classList.add("selected-filter");
@@ -44,10 +49,18 @@ function filterOptionClicked(hide) {
          noneUl.classList.add("grayed-out-container");
       if (includeHasChampion)
          noneUl.classList.add("grayed-out-champion-container");
-      cardContainer.style.display = "flex";
+      cardContainer.classList.remove("minimized-filter-container");
+      noneUl.style.display = "grid";
+      excludeButtonContainer.style.display = "flex";
+      excludeUl.style.gridTemplateColumns = "repeat(auto-fit, minmax(100px, 1fr))";
+      includeUl.style.gridTemplateColumns = "repeat(auto-fit, minmax(100px, 1fr))";
    } else if ( mode=="exclude" ) {
       excludeUl.classList.add("selected-filter");
-      cardContainer.style.display = "flex";
+      cardContainer.classList.remove("minimized-filter-container");
+      noneUl.style.display = "grid";
+      excludeButtonContainer.style.display = "flex";
+      excludeUl.style.gridTemplateColumns = "repeat(auto-fit, minmax(100px, 1fr))";
+      includeUl.style.gridTemplateColumns = "repeat(auto-fit, minmax(100px, 1fr))";
    }
 }
 
