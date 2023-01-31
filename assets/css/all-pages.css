@@ -1,37 +1,35 @@
 @font-face {
-    font-family: JetBrainsMono;
-    src: url(../fonts/JetBrainsMono-Regular.ttf);
-    font-weight: normal;
-  }
-  
-  @font-face {
-    font-family: JetBrainsMono;
-    src: url(../fonts/JetBrainsMono-Bold.ttf);
-    font-weight: bold;
-  }
-  
-  * {
-    font-family: JetBrainsMono;
-  }
-  
-  html, body {
-    padding: 0;
-    margin: 0;
-    /* overflow-x: hidden; */
-    background-color: rgb(43, 43, 43);
-    color: white;
-  }
-  
-  html::-webkit-scrollbar {
-    display: none;
-  }
+  font-family: Inter;
+  src: url(../fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
+}
 
-  .no-select {
-    -webkit-touch-callout: none;
-    -webkit-user-select: none; 
-    -khtml-user-select: none; 
-    -moz-user-select: none; 
-    -ms-user-select: none; 
-    user-select: none;
-    pointer-events: none;
-  }
+@font-face {
+  font-family: Satori;
+  src: url(../fonts/Satoshi/Satoshi-Variable.ttf);
+}
+
+* {
+  font-family: Satori;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  /* overflow-x: hidden; */
+  background-color: rgb(43, 43, 43);
+  color: white;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+.no-select {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none; 
+  -khtml-user-select: none; 
+  -moz-user-select: none; 
+  -ms-user-select: none; 
+  user-select: none;
+  pointer-events: none;
+}
