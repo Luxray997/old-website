@@ -5,7 +5,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Common",
        "id":26000000,
-       "icon":"./assets/images/cards/Knight.png"
+       "icon":"../assets/images/cards/Knight.png"
     },
     {
        "name":"Archers",
@@ -13,7 +13,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Common",
        "id":26000001,
-       "icon":"./assets/images/cards/Archers.png"
+       "icon":"../assets/images/cards/Archers.png"
     },
     {
        "name":"Goblins",
@@ -21,7 +21,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Common",
        "id":26000002,
-       "icon":"./assets/images/cards/Goblins.png"
+       "icon":"../assets/images/cards/Goblins.png"
     },
     {
        "name":"Giant",
@@ -29,7 +29,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Rare",
        "id":26000003,
-       "icon":"./assets/images/cards/Giant.png"
+       "icon":"../assets/images/cards/Giant.png"
     },
     {
        "name":"P.E.K.K.A",
@@ -37,7 +37,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Epic",
        "id":26000004,
-       "icon":"./assets/images/cards/P.E.K.K.A.png"
+       "icon":"../assets/images/cards/P.E.K.K.A.png"
     },
     {
        "name":"Minions",
@@ -45,7 +45,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Common",
        "id":26000005,
-       "icon":"./assets/images/cards/Minions.png"
+       "icon":"../assets/images/cards/Minions.png"
     },
     {
        "name":"Balloon",
@@ -53,7 +53,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Epic",
        "id":26000006,
-       "icon":"./assets/images/cards/Balloon.png"
+       "icon":"../assets/images/cards/Balloon.png"
     },
     {
        "name":"Witch",
@@ -61,7 +61,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Epic",
        "id":26000007,
-       "icon":"./assets/images/cards/Witch.png"
+       "icon":"../assets/images/cards/Witch.png"
     },
     {
        "name":"Barbarians",
@@ -69,7 +69,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Common",
        "id":26000008,
-       "icon":"./assets/images/cards/Barbarians.png"
+       "icon":"../assets/images/cards/Barbarians.png"
     },
     {
        "name":"Golem",
@@ -77,7 +77,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Epic",
        "id":26000009,
-       "icon":"./assets/images/cards/Golem.png"
+       "icon":"../assets/images/cards/Golem.png"
     },
     {
        "name":"Skeletons",
@@ -85,7 +85,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Common",
        "id":26000010,
-       "icon":"./assets/images/cards/Skeletons.png"
+       "icon":"../assets/images/cards/Skeletons.png"
     },
     {
        "name":"Valkyrie",
@@ -93,7 +93,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Rare",
        "id":26000011,
-       "icon":"./assets/images/cards/Valkyrie.png"
+       "icon":"../assets/images/cards/Valkyrie.png"
     },
     {
        "name":"Skeleton Army",
@@ -101,7 +101,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Epic",
        "id":26000012,
-       "icon":"./assets/images/cards/Skeleton Army.png"
+       "icon":"../assets/images/cards/Skeleton Army.png"
     },
     {
        "name":"Bomber",
@@ -109,7 +109,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Common",
        "id":26000013,
-       "icon":"./assets/images/cards/Bomber.png"
+       "icon":"../assets/images/cards/Bomber.png"
     },
     {
        "name":"Musketeer",
@@ -117,7 +117,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Rare",
        "id":26000014,
-       "icon":"./assets/images/cards/Musketeer.png"
+       "icon":"../assets/images/cards/Musketeer.png"
     },
     {
        "name":"Baby Dragon",
@@ -125,7 +125,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Epic",
        "id":26000015,
-       "icon":"./assets/images/cards/Baby Dragon.png"
+       "icon":"../assets/images/cards/Baby Dragon.png"
     },
     {
        "name":"Prince",
@@ -133,7 +133,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Epic",
        "id":26000016,
-       "icon":"./assets/images/cards/Prince.png"
+       "icon":"../assets/images/cards/Prince.png"
     },
     {
        "name":"Wizard",
@@ -141,7 +141,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Rare",
        "id":26000017,
-       "icon":"./assets/images/cards/Wizard.png"
+       "icon":"../assets/images/cards/Wizard.png"
     },
     {
        "name":"Mini P.E.K.K.A",
@@ -149,7 +149,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Rare",
        "id":26000018,
-       "icon":"./assets/images/cards/Mini P.E.K.K.A.png"
+       "icon":"../assets/images/cards/Mini P.E.K.K.A.png"
     },
     {
        "name":"Spear Goblins",
@@ -157,7 +157,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Common",
        "id":26000019,
-       "icon":"./assets/images/cards/Spear Goblins.png"
+       "icon":"../assets/images/cards/Spear Goblins.png"
     },
     {
        "name":"Giant Skeleton",
@@ -165,7 +165,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Epic",
        "id":26000020,
-       "icon":"./assets/images/cards/Giant Skeleton.png"
+       "icon":"../assets/images/cards/Giant Skeleton.png"
     },
     {
        "name":"Hog Rider",
@@ -173,7 +173,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Rare",
        "id":26000021,
-       "icon":"./assets/images/cards/Hog Rider.png"
+       "icon":"../assets/images/cards/Hog Rider.png"
     },
     {
        "name":"Minion Horde",
@@ -181,7 +181,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Common",
        "id":26000022,
-       "icon":"./assets/images/cards/Minion Horde.png"
+       "icon":"../assets/images/cards/Minion Horde.png"
     },
     {
        "name":"Ice Wizard",
@@ -189,7 +189,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Legendary",
        "id":26000023,
-       "icon":"./assets/images/cards/Ice Wizard.png"
+       "icon":"../assets/images/cards/Ice Wizard.png"
     },
     {
        "name":"Royal Giant",
@@ -197,7 +197,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Common",
        "id":26000024,
-       "icon":"./assets/images/cards/Royal Giant.png"
+       "icon":"../assets/images/cards/Royal Giant.png"
     },
     {
        "name":"Guards",
@@ -205,7 +205,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Epic",
        "id":26000025,
-       "icon":"./assets/images/cards/Guards.png"
+       "icon":"../assets/images/cards/Guards.png"
     },
     {
        "name":"Princess",
@@ -213,7 +213,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Legendary",
        "id":26000026,
-       "icon":"./assets/images/cards/Princess.png"
+       "icon":"../assets/images/cards/Princess.png"
     },
     {
        "name":"Dark Prince",
@@ -221,7 +221,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Epic",
        "id":26000027,
-       "icon":"./assets/images/cards/Dark Prince.png"
+       "icon":"../assets/images/cards/Dark Prince.png"
     },
     {
        "name":"Three Musketeers",
@@ -229,7 +229,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Rare",
        "id":26000028,
-       "icon":"./assets/images/cards/Three Musketeers.png"
+       "icon":"../assets/images/cards/Three Musketeers.png"
     },
     {
        "name":"Lava Hound",
@@ -237,7 +237,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Legendary",
        "id":26000029,
-       "icon":"./assets/images/cards/Lava Hound.png"
+       "icon":"../assets/images/cards/Lava Hound.png"
     },
     {
        "name":"Ice Spirit",
@@ -245,7 +245,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Common",
        "id":26000030,
-       "icon":"./assets/images/cards/Ice Spirit.png"
+       "icon":"../assets/images/cards/Ice Spirit.png"
     },
     {
        "name":"Fire Spirit",
@@ -253,7 +253,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Common",
        "id":26000031,
-       "icon":"./assets/images/cards/Fire Spirit.png"
+       "icon":"../assets/images/cards/Fire Spirit.png"
     },
     {
        "name":"Miner",
@@ -261,7 +261,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Legendary",
        "id":26000032,
-       "icon":"./assets/images/cards/Miner.png"
+       "icon":"../assets/images/cards/Miner.png"
     },
     {
        "name":"Sparky",
@@ -269,7 +269,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Legendary",
        "id":26000033,
-       "icon":"./assets/images/cards/Sparky.png"
+       "icon":"../assets/images/cards/Sparky.png"
     },
     {
        "name":"Bowler",
@@ -277,7 +277,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Epic",
        "id":26000034,
-       "icon":"./assets/images/cards/Bowler.png"
+       "icon":"../assets/images/cards/Bowler.png"
     },
     {
        "name":"Lumberjack",
@@ -285,7 +285,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Legendary",
        "id":26000035,
-       "icon":"./assets/images/cards/Lumberjack.png"
+       "icon":"../assets/images/cards/Lumberjack.png"
     },
     {
        "name":"Battle Ram",
@@ -293,7 +293,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Rare",
        "id":26000036,
-       "icon":"./assets/images/cards/Battle Ram.png"
+       "icon":"../assets/images/cards/Battle Ram.png"
     },
     {
        "name":"Inferno Dragon",
@@ -301,7 +301,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Legendary",
        "id":26000037,
-       "icon":"./assets/images/cards/Inferno Dragon.png"
+       "icon":"../assets/images/cards/Inferno Dragon.png"
     },
     {
        "name":"Ice Golem",
@@ -309,7 +309,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Rare",
        "id":26000038,
-       "icon":"./assets/images/cards/Ice Golem.png"
+       "icon":"../assets/images/cards/Ice Golem.png"
     },
     {
        "name":"Mega Minion",
@@ -317,7 +317,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Rare",
        "id":26000039,
-       "icon":"./assets/images/cards/Mega Minion.png"
+       "icon":"../assets/images/cards/Mega Minion.png"
     },
     {
        "name":"Dart Goblin",
@@ -325,7 +325,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Rare",
        "id":26000040,
-       "icon":"./assets/images/cards/Dart Goblin.png"
+       "icon":"../assets/images/cards/Dart Goblin.png"
     },
     {
        "name":"Goblin Gang",
@@ -333,7 +333,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Common",
        "id":26000041,
-       "icon":"./assets/images/cards/Goblin Gang.png"
+       "icon":"../assets/images/cards/Goblin Gang.png"
     },
     {
        "name":"Electro Wizard",
@@ -341,7 +341,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Legendary",
        "id":26000042,
-       "icon":"./assets/images/cards/Electro Wizard.png"
+       "icon":"../assets/images/cards/Electro Wizard.png"
     },
     {
        "name":"Elite Barbarians",
@@ -349,7 +349,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Common",
        "id":26000043,
-       "icon":"./assets/images/cards/Elite Barbarians.png"
+       "icon":"../assets/images/cards/Elite Barbarians.png"
     },
     {
        "name":"Hunter",
@@ -357,7 +357,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Epic",
        "id":26000044,
-       "icon":"./assets/images/cards/Hunter.png"
+       "icon":"../assets/images/cards/Hunter.png"
     },
     {
        "name":"Executioner",
@@ -365,7 +365,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Epic",
        "id":26000045,
-       "icon":"./assets/images/cards/Executioner.png"
+       "icon":"../assets/images/cards/Executioner.png"
     },
     {
        "name":"Bandit",
@@ -373,7 +373,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Legendary",
        "id":26000046,
-       "icon":"./assets/images/cards/Bandit.png"
+       "icon":"../assets/images/cards/Bandit.png"
     },
     {
        "name":"Royal Recruits",
@@ -381,7 +381,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Common",
        "id":26000047,
-       "icon":"./assets/images/cards/Royal Recruits.png"
+       "icon":"../assets/images/cards/Royal Recruits.png"
     },
     {
        "name":"Night Witch",
@@ -389,7 +389,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Legendary",
        "id":26000048,
-       "icon":"./assets/images/cards/Night Witch.png"
+       "icon":"../assets/images/cards/Night Witch.png"
     },
     {
        "name":"Bats",
@@ -397,7 +397,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Common",
        "id":26000049,
-       "icon":"./assets/images/cards/Bats.png"
+       "icon":"../assets/images/cards/Bats.png"
     },
     {
        "name":"Royal Ghost",
@@ -405,7 +405,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Legendary",
        "id":26000050,
-       "icon":"./assets/images/cards/Royal Ghost.png"
+       "icon":"../assets/images/cards/Royal Ghost.png"
     },
     {
        "name":"Ram Rider",
@@ -413,7 +413,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Legendary",
        "id":26000051,
-       "icon":"./assets/images/cards/Ram Rider.png"
+       "icon":"../assets/images/cards/Ram Rider.png"
     },
     {
        "name":"Zappies",
@@ -421,7 +421,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Rare",
        "id":26000052,
-       "icon":"./assets/images/cards/Zappies.png"
+       "icon":"../assets/images/cards/Zappies.png"
     },
     {
        "name":"Rascals",
@@ -429,7 +429,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Common",
        "id":26000053,
-       "icon":"./assets/images/cards/Rascals.png"
+       "icon":"../assets/images/cards/Rascals.png"
     },
     {
        "name":"Cannon Cart",
@@ -437,7 +437,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Epic",
        "id":26000054,
-       "icon":"./assets/images/cards/Cannon Cart.png"
+       "icon":"../assets/images/cards/Cannon Cart.png"
     },
     {
        "name":"Mega Knight",
@@ -445,7 +445,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Legendary",
        "id":26000055,
-       "icon":"./assets/images/cards/Mega Knight.png"
+       "icon":"../assets/images/cards/Mega Knight.png"
     },
     {
        "name":"Skeleton Barrel",
@@ -453,7 +453,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Common",
        "id":26000056,
-       "icon":"./assets/images/cards/Skeleton Barrel.png"
+       "icon":"../assets/images/cards/Skeleton Barrel.png"
     },
     {
        "name":"Flying Machine",
@@ -461,7 +461,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Rare",
        "id":26000057,
-       "icon":"./assets/images/cards/Flying Machine.png"
+       "icon":"../assets/images/cards/Flying Machine.png"
     },
     {
        "name":"Wall Breakers",
@@ -469,7 +469,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Epic",
        "id":26000058,
-       "icon":"./assets/images/cards/Wall Breakers.png"
+       "icon":"../assets/images/cards/Wall Breakers.png"
     },
     {
        "name":"Royal Hogs",
@@ -477,7 +477,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Rare",
        "id":26000059,
-       "icon":"./assets/images/cards/Royal Hogs.png"
+       "icon":"../assets/images/cards/Royal Hogs.png"
     },
     {
        "name":"Goblin Giant",
@@ -485,7 +485,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Epic",
        "id":26000060,
-       "icon":"./assets/images/cards/Goblin Giant.png"
+       "icon":"../assets/images/cards/Goblin Giant.png"
     },
     {
        "name":"Fisherman",
@@ -493,7 +493,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Legendary",
        "id":26000061,
-       "icon":"./assets/images/cards/Fisherman.png"
+       "icon":"../assets/images/cards/Fisherman.png"
     },
     {
        "name":"Magic Archer",
@@ -501,7 +501,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Legendary",
        "id":26000062,
-       "icon":"./assets/images/cards/Magic Archer.png"
+       "icon":"../assets/images/cards/Magic Archer.png"
     },
     {
        "name":"Electro Dragon",
@@ -509,7 +509,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Epic",
        "id":26000063,
-       "icon":"./assets/images/cards/Electro Dragon.png"
+       "icon":"../assets/images/cards/Electro Dragon.png"
     },
     {
        "name":"Firecracker",
@@ -517,7 +517,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Common",
        "id":26000064,
-       "icon":"./assets/images/cards/Firecracker.png"
+       "icon":"../assets/images/cards/Firecracker.png"
     },
     {
        "name":"Elixir Golem",
@@ -525,7 +525,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Rare",
        "id":26000067,
-       "icon":"./assets/images/cards/Elixir Golem.png"
+       "icon":"../assets/images/cards/Elixir Golem.png"
     },
     {
        "name":"Battle Healer",
@@ -533,7 +533,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Rare",
        "id":26000068,
-       "icon":"./assets/images/cards/Battle Healer.png"
+       "icon":"../assets/images/cards/Battle Healer.png"
     },
     {
        "name":"Skeleton Dragons",
@@ -541,7 +541,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Common",
        "id":26000080,
-       "icon":"./assets/images/cards/Skeleton Dragons.png"
+       "icon":"../assets/images/cards/Skeleton Dragons.png"
     },
     {
        "name":"Mother Witch",
@@ -549,7 +549,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Legendary",
        "id":26000083,
-       "icon":"./assets/images/cards/Mother Witch.png"
+       "icon":"../assets/images/cards/Mother Witch.png"
     },
     {
        "name":"Electro Spirit",
@@ -557,7 +557,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Common",
        "id":26000084,
-       "icon":"./assets/images/cards/Electro Spirit.png"
+       "icon":"../assets/images/cards/Electro Spirit.png"
     },
     {
        "name":"Electro Giant",
@@ -565,7 +565,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Epic",
        "id":26000085,
-       "icon":"./assets/images/cards/Electro Giant.png"
+       "icon":"../assets/images/cards/Electro Giant.png"
     },
     {
        "name":"Phoenix",
@@ -573,7 +573,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Legendary",
        "id":26000087,
-       "icon":"./assets/images/cards/Phoenix.png"
+       "icon":"../assets/images/cards/Phoenix.png"
     },
     {
        "name":"Cannon",
@@ -581,7 +581,7 @@ const cardList = [
        "type":"Building",
        "rarity":"Common",
        "id":27000000,
-       "icon":"./assets/images/cards/Cannon.png"
+       "icon":"../assets/images/cards/Cannon.png"
     },
     {
        "name":"Goblin Hut",
@@ -589,7 +589,7 @@ const cardList = [
        "type":"Building",
        "rarity":"Rare",
        "id":27000001,
-       "icon":"./assets/images/cards/Goblin Hut.png"
+       "icon":"../assets/images/cards/Goblin Hut.png"
     },
     {
        "name":"Mortar",
@@ -597,7 +597,7 @@ const cardList = [
        "type":"Building",
        "rarity":"Common",
        "id":27000002,
-       "icon":"./assets/images/cards/Mortar.png"
+       "icon":"../assets/images/cards/Mortar.png"
     },
     {
        "name":"Inferno Tower",
@@ -605,7 +605,7 @@ const cardList = [
        "type":"Building",
        "rarity":"Rare",
        "id":27000003,
-       "icon":"./assets/images/cards/Inferno Tower.png"
+       "icon":"../assets/images/cards/Inferno Tower.png"
     },
     {
        "name":"Bomb Tower",
@@ -613,7 +613,7 @@ const cardList = [
        "type":"Building",
        "rarity":"Rare",
        "id":27000004,
-       "icon":"./assets/images/cards/Bomb Tower.png"
+       "icon":"../assets/images/cards/Bomb Tower.png"
     },
     {
        "name":"Barbarian Hut",
@@ -621,7 +621,7 @@ const cardList = [
        "type":"Building",
        "rarity":"Rare",
        "id":27000005,
-       "icon":"./assets/images/cards/Barbarian Hut.png"
+       "icon":"../assets/images/cards/Barbarian Hut.png"
     },
     {
        "name":"Tesla",
@@ -629,7 +629,7 @@ const cardList = [
        "type":"Building",
        "rarity":"Common",
        "id":27000006,
-       "icon":"./assets/images/cards/Tesla.png"
+       "icon":"../assets/images/cards/Tesla.png"
     },
     {
        "name":"Elixir Collector",
@@ -637,7 +637,7 @@ const cardList = [
        "type":"Building",
        "rarity":"Rare",
        "id":27000007,
-       "icon":"./assets/images/cards/Elixir Collector.png"
+       "icon":"../assets/images/cards/Elixir Collector.png"
     },
     {
        "name":"X-Bow",
@@ -645,7 +645,7 @@ const cardList = [
        "type":"Building",
        "rarity":"Epic",
        "id":27000008,
-       "icon":"./assets/images/cards/X-Bow.png"
+       "icon":"../assets/images/cards/X-Bow.png"
     },
     {
        "name":"Tombstone",
@@ -653,7 +653,7 @@ const cardList = [
        "type":"Building",
        "rarity":"Rare",
        "id":27000009,
-       "icon":"./assets/images/cards/Tombstone.png"
+       "icon":"../assets/images/cards/Tombstone.png"
     },
     {
        "name":"Furnace",
@@ -661,7 +661,7 @@ const cardList = [
        "type":"Building",
        "rarity":"Rare",
        "id":27000010,
-       "icon":"./assets/images/cards/Furnace.png"
+       "icon":"../assets/images/cards/Furnace.png"
     },
     {
        "name":"Goblin Cage",
@@ -669,7 +669,7 @@ const cardList = [
        "type":"Building",
        "rarity":"Rare",
        "id":27000012,
-       "icon":"./assets/images/cards/Goblin Cage.png"
+       "icon":"../assets/images/cards/Goblin Cage.png"
     },
     {
        "name":"Goblin Drill",
@@ -677,7 +677,7 @@ const cardList = [
        "type":"Building",
        "rarity":"Epic",
        "id":27000013,
-       "icon":"./assets/images/cards/Goblin Drill.png"
+       "icon":"../assets/images/cards/Goblin Drill.png"
     },
     {
        "name":"Fireball",
@@ -685,7 +685,7 @@ const cardList = [
        "type":"Spell",
        "rarity":"Rare",
        "id":28000000,
-       "icon":"./assets/images/cards/Fireball.png"
+       "icon":"../assets/images/cards/Fireball.png"
     },
     {
        "name":"Arrows",
@@ -693,7 +693,7 @@ const cardList = [
        "type":"Spell",
        "rarity":"Common",
        "id":28000001,
-       "icon":"./assets/images/cards/Arrows.png"
+       "icon":"../assets/images/cards/Arrows.png"
     },
     {
        "name":"Rage",
@@ -701,7 +701,7 @@ const cardList = [
        "type":"Spell",
        "rarity":"Epic",
        "id":28000002,
-       "icon":"./assets/images/cards/Rage.png"
+       "icon":"../assets/images/cards/Rage.png"
     },
     {
        "name":"Rocket",
@@ -709,7 +709,7 @@ const cardList = [
        "type":"Spell",
        "rarity":"Rare",
        "id":28000003,
-       "icon":"./assets/images/cards/Rocket.png"
+       "icon":"../assets/images/cards/Rocket.png"
     },
     {
        "name":"Goblin Barrel",
@@ -717,7 +717,7 @@ const cardList = [
        "type":"Spell",
        "rarity":"Epic",
        "id":28000004,
-       "icon":"./assets/images/cards/Goblin Barrel.png"
+       "icon":"../assets/images/cards/Goblin Barrel.png"
     },
     {
        "name":"Freeze",
@@ -725,7 +725,7 @@ const cardList = [
        "type":"Spell",
        "rarity":"Epic",
        "id":28000005,
-       "icon":"./assets/images/cards/Freeze.png"
+       "icon":"../assets/images/cards/Freeze.png"
     },
     {
        "name":"Mirror",
@@ -733,7 +733,7 @@ const cardList = [
        "type":"Spell",
        "rarity":"Epic",
        "id":28000006,
-       "icon":"./assets/images/cards/Mirror.png"
+       "icon":"../assets/images/cards/Mirror.png"
     },
     {
        "name":"Lightning",
@@ -741,7 +741,7 @@ const cardList = [
        "type":"Spell",
        "rarity":"Epic",
        "id":28000007,
-       "icon":"./assets/images/cards/Lightning.png"
+       "icon":"../assets/images/cards/Lightning.png"
     },
     {
        "name":"Zap",
@@ -749,7 +749,7 @@ const cardList = [
        "type":"Spell",
        "rarity":"Common",
        "id":28000008,
-       "icon":"./assets/images/cards/Zap.png"
+       "icon":"../assets/images/cards/Zap.png"
     },
     {
        "name":"Poison",
@@ -757,7 +757,7 @@ const cardList = [
        "type":"Spell",
        "rarity":"Epic",
        "id":28000009,
-       "icon":"./assets/images/cards/Poison.png"
+       "icon":"../assets/images/cards/Poison.png"
     },
     {
        "name":"Graveyard",
@@ -765,7 +765,7 @@ const cardList = [
        "type":"Spell",
        "rarity":"Legendary",
        "id":28000010,
-       "icon":"./assets/images/cards/Graveyard.png"
+       "icon":"../assets/images/cards/Graveyard.png"
     },
     {
        "name":"The Log",
@@ -773,7 +773,7 @@ const cardList = [
        "type":"Spell",
        "rarity":"Legendary",
        "id":28000011,
-       "icon":"./assets/images/cards/The Log.png"
+       "icon":"../assets/images/cards/The Log.png"
     },
     {
        "name":"Tornado",
@@ -781,7 +781,7 @@ const cardList = [
        "type":"Spell",
        "rarity":"Epic",
        "id":28000012,
-       "icon":"./assets/images/cards/Tornado.png"
+       "icon":"../assets/images/cards/Tornado.png"
     },
     {
        "name":"Clone",
@@ -789,7 +789,7 @@ const cardList = [
        "type":"Spell",
        "rarity":"Epic",
        "id":28000013,
-       "icon":"./assets/images/cards/Clone.png"
+       "icon":"../assets/images/cards/Clone.png"
     },
     {
        "name":"Earthquake",
@@ -797,7 +797,7 @@ const cardList = [
        "type":"Spell",
        "rarity":"Rare",
        "id":28000014,
-       "icon":"./assets/images/cards/Earthquake.png"
+       "icon":"../assets/images/cards/Earthquake.png"
     },
     {
        "name":"Barbarian Barrel",
@@ -805,7 +805,7 @@ const cardList = [
        "type":"Spell",
        "rarity":"Epic",
        "id":28000015,
-       "icon":"./assets/images/cards/Barbarian Barrel.png"
+       "icon":"../assets/images/cards/Barbarian Barrel.png"
     },
     {
        "name":"Heal Spirit",
@@ -813,7 +813,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Rare",
        "id":28000016,
-       "icon":"./assets/images/cards/Heal Spirit.png"
+       "icon":"../assets/images/cards/Heal Spirit.png"
     },
     {
        "name":"Giant Snowball",
@@ -821,7 +821,7 @@ const cardList = [
        "type":"Spell",
        "rarity":"Common",
        "id":28000017,
-       "icon":"./assets/images/cards/Giant Snowball.png"
+       "icon":"../assets/images/cards/Giant Snowball.png"
     },
     {
        "name":"Royal Delivery",
@@ -829,7 +829,7 @@ const cardList = [
        "type":"Spell",
        "rarity":"Common",
        "id":28000018,
-       "icon":"./assets/images/cards/Royal Delivery.png"
+       "icon":"../assets/images/cards/Royal Delivery.png"
     },
     {
        "name":"Archer Queen",
@@ -837,7 +837,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Champion",
        "id":26000072,
-       "icon":"./assets/images/cards/Archer Queen.png"
+       "icon":"../assets/images/cards/Archer Queen.png"
     },
     {
        "name":"Mighty Miner",
@@ -845,7 +845,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Champion",
        "id":26000065,
-       "icon":"./assets/images/cards/Mighty Miner.png"
+       "icon":"../assets/images/cards/Mighty Miner.png"
     },
     {
        "name":"Golden Knight",
@@ -853,7 +853,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Champion",
        "id":26000074,
-       "icon":"./assets/images/cards/Golden Knight.png"
+       "icon":"../assets/images/cards/Golden Knight.png"
     },
     {
        "name":"Skeleton King",
@@ -861,7 +861,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Champion",
        "id":26000069,
-       "icon":"./assets/images/cards/Skeleton King.png"
+       "icon":"../assets/images/cards/Skeleton King.png"
     },
     {
        "name":"Monk",
@@ -869,7 +869,7 @@ const cardList = [
        "type":"Troop",
        "rarity":"Champion",
        "id":26000077,
-       "icon":"./assets/images/cards/Monk.png"
+       "icon":"../assets/images/cards/Monk.png"
     }
  ]
 

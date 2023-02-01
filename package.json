@@ -1,0 +1,23 @@
+{
+  "name": "luxray997.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luxray997/Luxray997.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Luxray997/Luxray997.github.io/issues"
+  },
+  "homepage": "https://github.com/Luxray997/Luxray997.github.io#readme",
+  "devDependencies": {
+    "webpack": "^5.75.0"
+  }
+}

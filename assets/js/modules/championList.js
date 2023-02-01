@@ -5,7 +5,7 @@ const championList = [
        "type":"Troop",
        "rarity":"Champion",
        "id":26000072,
-       "icon":"./assets/images/cards/Archer Queen.png"
+       "icon":"../assets/images/cards/Archer Queen.png"
     },
     {
        "name":"Mighty Miner",
@@ -13,7 +13,7 @@ const championList = [
        "type":"Troop",
        "rarity":"Champion",
        "id":26000065,
-       "icon":"./assets/images/cards/Mighty Miner.png"
+       "icon":"../assets/images/cards/Mighty Miner.png"
     },
     {
        "name":"Golden Knight",
@@ -21,7 +21,7 @@ const championList = [
        "type":"Troop",
        "rarity":"Champion",
        "id":26000074,
-       "icon":"./assets/images/cards/Golden Knight.png"
+       "icon":"../assets/images/cards/Golden Knight.png"
     },
     {
        "name":"Skeleton King",
@@ -29,7 +29,7 @@ const championList = [
        "type":"Troop",
        "rarity":"Champion",
        "id":26000069,
-       "icon":"./assets/images/cards/Skeleton King.png"
+       "icon":"../assets/images/cards/Skeleton King.png"
     },
     {
        "name":"Monk",
@@ -37,7 +37,7 @@ const championList = [
        "type":"Troop",
        "rarity":"Champion",
        "id":26000077,
-       "icon":"./assets/images/cards/Monk.png"
+       "icon":"../assets/images/cards/Monk.png"
     }
  ]
 
