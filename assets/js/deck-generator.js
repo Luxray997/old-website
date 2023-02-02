@@ -167,7 +167,7 @@ function createRandomDeck(excludeArr, includeArr, champion) {
       if (e.rarity == "Champion") 
          hasChampion = true;
    });
-   if (!hasChampion && champion == 2) {
+   if (!hasChampion && champion == 2 && includeArr.size < 8) {
       let excludedChampionList = championList.filter(e => !excludeArr.some(e2 => e2.id == e.id));
       if (excludedChampionList.length > 0)
          deck.push(excludedChampionList[randomInt(0, excludedChampionList.length)]);
